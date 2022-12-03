@@ -1,25 +1,25 @@
 .counter__value {
   display: flex;
   justify-content: center;
-  background: red;
+  background: #b84d69;
   p {
     margin: 0 15px 15px 15px;
-    font-size: 1.5rem;
-    background: red;
+    font-size: 2.5rem;
+    background: #b84d69;
   }
 }
 
 .counter__title {
-  background: red;
+  background: #b84d69;
 }
 
 .counter__display {
   font-size: 1.5rem;
-  background: red;
+  background: #b84d69;
 }
 
 .counter {
   border: 2px solid black;
   margin: 0 5px 0 5px;
-  background: red;
+  background: #b84d69;
 }
