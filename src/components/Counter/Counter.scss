@@ -1,16 +1,25 @@
 .counter__value {
   display: flex;
   justify-content: center;
+  background: red;
   p {
     margin: 0 15px 15px 15px;
     font-size: 1.5rem;
+    background: red;
   }
+}
+
+.counter__title {
+  background: red;
 }
 
 .counter__display {
   font-size: 1.5rem;
+  background: red;
 }
 
 .counter {
   border: 2px solid black;
+  margin: 0 5px 0 5px;
+  background: red;
 }
