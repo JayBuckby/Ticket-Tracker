@@ -6,6 +6,7 @@ const App = () => {
   const mappedTeam = team.map((employee) => {
     return <Tracker name={employee.name} role={employee.role} />;
   });
+
   return (
     <div className="app">
       <header className="greeting">
