@@ -12,6 +12,16 @@ const Counter = () => {
       setCounter(counter - 1);
     }
   };
+  return (
+    <div className="counter">
+      <h2 className="counter__title">Counter</h2>
+      <p className="counter__display">{counter}</p>
+      <div className="counter__value">
+        <p onClick={handleDecrement}>-</p>
+        <p onClick={handleIncrement}>+</p>
+      </div>
+    </div>
+  );
 };
 
 export default Counter;
