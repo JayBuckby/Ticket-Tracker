@@ -1,0 +1,16 @@
+.counter__value {
+  display: flex;
+  justify-content: center;
+  p {
+    margin: 0 15px 15px 15px;
+    font-size: 1.5rem;
+  }
+}
+
+.counter__display {
+  font-size: 1.5rem;
+}
+
+.counter {
+  border: 2px solid black;
+}

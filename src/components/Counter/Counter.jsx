@@ -7,11 +7,13 @@ const Counter = () => {
   const handleIncrement = () => {
     setCounter(counter + 1);
   };
+
   const handleDecrement = () => {
     if (counter > 0) {
       setCounter(counter - 1);
     }
   };
+
   return (
     <div className="counter">
       <h2 className="counter__title">Counter</h2>
