@@ -1,13 +1,7 @@
 import "./App.scss";
+import Tracker from "./components/Tracker/Tracker";
+import team from "./assets/data/data";
 
-const App = () => {
-  return (
-    <div className="app">
-      <header className="greeting">
-        <h1 className="greeting__heading">Hello World</h1>
-      </header>
-    </div>
-  );
-};
+const App = () => {};
 
 export default App;
