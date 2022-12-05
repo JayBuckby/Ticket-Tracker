@@ -2,6 +2,9 @@
   display: flex;
   justify-content: center;
   background: #b84d69;
+  :hover {
+    cursor: pointer;
+  }
   p {
     margin: 0 15px 15px 15px;
     font-size: 2.5rem;

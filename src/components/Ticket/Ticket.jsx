@@ -1,10 +1,10 @@
 import Counter from "../Counter/Counter";
-import "./Tracker.scss";
+import "./Ticket.scss";
 
-const Tracker = (props) => {
+const Ticket = (props) => {
   const { name, role } = props;
   return (
-    <div className="tracker__card">
+    <div className="ticket__card">
       <p className="employee__info">{name}</p>
       <p className="employee__info">{role}</p>
       <Counter />
@@ -12,4 +12,4 @@ const Tracker = (props) => {
   );
 };
 
-export default Tracker;
+export default Ticket;
