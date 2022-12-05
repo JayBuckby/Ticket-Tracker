@@ -19,8 +19,8 @@ const Counter = () => {
       <h2 className="counter__title">Counter</h2>
       <p className="counter__display">{counter}</p>
       <div className="counter__value">
-        <p onClick={handleDecrement}>-</p>
-        <p onClick={handleIncrement}>+</p>
+        <button onClick={handleDecrement}>-</button>
+        <button onClick={handleIncrement}>+</button>
       </div>
     </div>
   );

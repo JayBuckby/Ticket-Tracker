@@ -1,3 +1,5 @@
+@use "../../assets/sass/variables" as *;
+
 .counter__value {
   display: flex;
   justify-content: center;
@@ -5,10 +7,15 @@
   :hover {
     cursor: pointer;
   }
-  p {
-    margin: 0 15px 15px 15px;
-    font-size: 2.5rem;
-    background: #b84d69;
+  button {
+    margin: 0 10px 15px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    height: 30px;
+    width: 50px;
+    border-radius: 25px;
   }
 }
 
@@ -19,6 +26,7 @@
 .counter__display {
   font-size: 1.5rem;
   background: #b84d69;
+  font-family: $text-primary;
 }
 
 .counter {

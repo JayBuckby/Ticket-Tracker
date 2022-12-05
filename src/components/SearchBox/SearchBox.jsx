@@ -1,14 +1,13 @@
 import "./SearchBox.scss";
 
 const SearchBox = (props) => {
-  const { searchTerm, role, handleInput } = props;
+  const { searchTerm, handleInput } = props;
 
   return (
     <input
       className="searchbox"
       type="text"
       value={searchTerm}
-      role={role}
       onInput={handleInput}
     />
   );
